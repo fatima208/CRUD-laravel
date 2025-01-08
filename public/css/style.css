@@ -1,0 +1,134 @@
+#VideoBackground {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Places the video behind the text */
+}
+
+/* Body styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* Ensure text is readable on the video */
+  
+}
+
+/* Heading and paragraph styling */
+.h01, p {
+  position: relative;
+  z-index: 1; /* Makes sure text is above the video */
+  margin: 20px;
+  margin-top: 20%;
+  text-align: center;
+  color: white; /
+}
+
+h1 {
+  font-size: 3em; /* Larger font size for heading */ 
+  position: relative;
+  z-index: 1; /* Makes sure text is above the video */
+  margin: 20px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em; /* Medium-sized font for paragraph */
+}
+.l{
+  position: relative;
+  z-index: 1; /* Makes sure text is above the video */
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+
+}
+
+.t{
+  position: relative;
+  z-index: 1; /* Makes sure text is above the video */
+  margin: 20px;
+  font-size: 20px;
+  color:purple;
+
+}
+.bton{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  z-index: 1; /* Makes sure text is above the video */
+  margin-left: 30%;
+}
+.bton1{
+  background-color: purple;
+  opacity: 0.8; 
+}
+.div_back{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  background-color: rgb(247, 216, 246);
+  text-align: center;
+  color: black;
+}
+
+table td, table th {
+  padding: 8px 15px; /* Horizontal and vertical padding */
+}
+
+table th {
+  text-align: center;
+}
+.main_div{
+  position: relative;
+  z-index: 1; /* Makes sure text is above the video */
+  text-align: center;
+  display: flex; /* Activate Flexbox */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  min-height: 100vh; /* Ensures the div takes the full height of the viewport */}
+  .btn-left {
+    display: block;
+    margin: 0; /* Aligns to the left */
+    width: fit-content;
+}
+.delete-btn {
+  position: relative;
+  z-index: 1; /* Ensures it's above any background content */
+  background-color: red; /* Gradient background */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer; /* Pointer cursor on hover */
+ 
+}
+
+.Update-btn {
+  position: relative;
+  z-index: 1; /* Ensures it's above any background content */
+  background-color: green; /* Gradient background */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer; /* Pointer cursor on hover */
+ 
+}
