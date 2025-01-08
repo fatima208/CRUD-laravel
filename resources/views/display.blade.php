@@ -9,7 +9,7 @@
     <div class="div_back"></div>
     <div>
         <h1>User Display</h1>
-        <button type="button" class="bton bton1" onclick="window.location.href='{{route('adduser')}}'" style="margin-right:5cm">Add New</button>
+        <button type="button" class="bton2 bton1" onclick="window.location.href='{{route('adduser')}}'" style="margin-right:5cm">Add New</button>
         <div class="container" style="margin-left: 10cm">
             <div class="row">
                 <div class="col-6">
