@@ -67,7 +67,7 @@ p {
   margin: 4px 2px;
   cursor: pointer;
   z-index: 1; /* Makes sure text is above the video */
-  margin-left: 35%;
+  margin-left: 45%;
 }
 .bton1{
   background-color: purple;
