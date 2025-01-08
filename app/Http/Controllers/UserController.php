@@ -8,7 +8,9 @@ use Illuminate\Support\Facades\DB;
 class UserController extends Controller
 {
     public function show(){
-        $users=DB::table('users')->get();
+        $users=DB::table('users')
+        ->orderBy('name')
+        ->simplePaginate(3);
         return view('display',['data'=>$users]);
     }
 

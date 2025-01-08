@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Dispaly</title>
+        <title>Display</title>
         <link rel="stylesheet" href="css/style.css">
         <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css'>
     </head>
@@ -33,6 +33,9 @@
                         </tr>
                         @endforeach 
                     </table>
+                    <div class="mt5">
+                        {{$data->links()}}
+                    </div>
                 </div>
 
             </div>
