@@ -28,12 +28,12 @@
                             <td>{{$user->email}}</td>
                             <td>{{$user->age}}</td>
                             <td>{{$user->city}}</td>
-                            <td><button class="Update-btn"onclick="window.location.href='{{ route('update',$user->id) }}'">Update</button></td>
-                            <td><button class="delete-btn"  onclick="window.location.href='{{ route('delete',$user->id) }}'">Delete</button></td>
+                            <td><button class="Update-btn"onclick="window.location.href='{{ route('update',$user->id) }}'">Update</button>
+                            <button class="delete-btn"  onclick="window.location.href='{{ route('delete',$user->id) }}'">Delete</button></td>
                         </tr>
                         @endforeach 
                     </table>
-                    <div class="mt5">
+                    <div class="mt-5">
                         {{$data->links()}}
                     </div>
                 </div>

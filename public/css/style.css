@@ -112,12 +112,12 @@ table th {
   z-index: 1; /* Ensures it's above any background content */
   background-color: red; /* Gradient background */
   color: white;
-  padding: 10px 20px;
+  padding: 5px 10px !important; /* Reduced padding */
   border: none;
-  border-radius: 5px;
-  font-size: 16px;
+  border-radius: 3px !important; /* Slightly smaller border radius */
+  font-size: 12px; /* Reduced font size */
   cursor: pointer; /* Pointer cursor on hover */
- 
+  margin-top: 15%; /* Spacing between the buttons */
 }
 
 .Update-btn {
@@ -125,11 +125,12 @@ table th {
   z-index: 1; /* Ensures it's above any background content */
   background-color: green; /* Gradient background */
   color: white;
-  padding: 10px 20px;
+  padding: 5px 10px !important; /* Reduced padding */
   border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 3px !important; /* Slightly smaller border radius */
+  font-size: 12px; /* Reduced font size */
+  cursor: pointer; /*ointer cursor on hover */
+ 
  
 }
 .bton2{
