@@ -146,3 +146,38 @@ table th {
   z-index: 1; /* Makes sure text is above the video */
   margin-left: 30%;}
   .mt5{margin-top:3rem!important}.mt-auto{margin-top:auto!important}
+  .pagination {
+    display: flex;
+    justify-content: center; /* Centers the pagination links */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a, .pagination li span {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    background-color: #ee00ff; /* Primary button color */
+}
+
+.pagination li span {
+    background-color: #6c757d; /* Disabled button color */
+}
+
+.pagination li a:hover {
+    background-color: #b3004b; /* Hover effect */
+}
+
+.pagination .active span {
+    background-color: #28a745; /* Active page color */
+    color: white;
+    font-weight: bold;
+}

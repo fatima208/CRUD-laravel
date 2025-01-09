@@ -20,8 +20,9 @@
                             <th>Email</th>
                             <th>Age</th>
                             <th>City</th>
+                            <th>Action</th>
                         </tr>
-                        @foreach ($data as $id => $user)
+                        @foreach ($data as $user) 
                         <tr>
                             <td>{{$user->id}}</td>
                             <td>{{$user->name}}</td>
